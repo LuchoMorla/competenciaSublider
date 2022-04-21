@@ -26,7 +26,7 @@ class participante {
       document.body.appendChild(this.imagen);
       document.write("<p>");
       document.write("<strong>" + this.id + "</strong>");
-      document.write(" Nombre " + this.characterName + " <br>");
+      document.write(") Nombre: " + this.characterName + " <br>");
       document.write("Puntaje en competencias: " + this.puntos + " ");
       document.write("</p>");
       document.write("<hr />");
