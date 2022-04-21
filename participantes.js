@@ -3,9 +3,9 @@ idImagenes["samuel"] = "./WhatsApp Image 2022-04-19 at 10.02.37 PM.jpeg";
 idImagenes["josue"] = "./imagen2.jpeg";
 idImagenes["Emilio"] = "./imagen1.jpeg";
 
-var puntajeSamuel = 0 + 5;
-var puntajeJosue = 0 + 6;
-var puntajeEmilio = 0 + 17;
+var puntajeSamuel = 0;
+var puntajeJosue = 0;
+var puntajeEmilio = 0;
 
 var puntajes = [];
 puntajes["samuel"] = puntajeSamuel;
@@ -27,7 +27,7 @@ class participante {
       document.write("<p>");
       document.write("<strong>" + this.id + "</strong>");
       document.write(" Nombre " + this.characterName + " <br>");
-      document.write("Puntaje en competencia: " + this.puntos + " ");
+      document.write("Puntaje en competencias: " + this.puntos + " ");
       document.write("</p>");
       document.write("<hr />");
     }
