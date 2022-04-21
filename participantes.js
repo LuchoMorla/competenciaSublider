@@ -1,5 +1,5 @@
 var idImagenes = [];
-idImagenes["samuel"] = "./WhatsApp Image 2022-04-19 at 10.02.37 PM.jpeg";
+idImagenes["samuel"] = "https://scontent.fuio1-1.fna.fbcdn.net/v/t1.6435-9/161432833_102932598551242_7090641754533412937_n.jpg?_nc_cat=104&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=lPlQK02uAgQAX_L7zOS&_nc_ht=scontent.fuio1-1.fna&oh=00_AT8bz-FS_cpoXqGkR_CqikIE8ffiGsj9xOxYlJ3QWAGyKA&oe=6287078A";
 idImagenes["josue"] = "./imagen2.jpeg";
 idImagenes["Emilio"] = "./imagen1.jpeg";
 
