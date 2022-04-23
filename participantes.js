@@ -5,11 +5,11 @@ idImagenes["Emilio"] = "./imagen1.jpeg";
 idImagenes["Sanchez"] = "https://s1.zerochan.net/Donquixote.Doflamingo.600.2313934.jpg";
 idImagenes["Cesar"] = "./WhatsApp Image 2022-04-19 at 10.02.37 PM.jpeg";
 
-var puntajeSamuel = 0;
-var puntajeJosue = 0;
-var puntajeEmilio = 0;
+var puntajeSamuel = 4200 + 0;
+var puntajeJosue = 5859 + 0;
+var puntajeEmilio = 4824 + 0;
 var puntajeSanchez = 0;
-var puntajeCesar = 0;
+var puntajeCesar = 3710 + 0;
 
 var puntajes = [];
 puntajes["samuel"] = puntajeSamuel;
@@ -19,11 +19,11 @@ puntajes["Sanchez"] = puntajeSanchez;
 puntajes["Cesar"] = puntajeCesar;
 
 var partidasGanadas = [];
-partidasGanadas["samuel"] = 0;
-partidasGanadas["josue"] = 0;
-partidasGanadas["Emilio"] = 0;
+partidasGanadas["samuel"] = 1;
+partidasGanadas["josue"] = 1;
+partidasGanadas["Emilio"] = 1;
 partidasGanadas["Sanchez"] = 0;
-partidasGanadas["Cesar"] = 0;
+partidasGanadas["Cesar"] = 1;
 
 // funcion que imprima por consola el puntaje total del personaje con su nombre
 function imprimirPuntaje(nombre, puntajeGanador) {
@@ -60,7 +60,7 @@ var participante1 = new participante(01, "samuel", "AOKAMYA",);
 var participante2 = new participante(02,"josue", "Empanada2");
 var participante3 = new participante(03, "Emilio", "Emilio_OP");
 var participante4 = new participante(04, "Sanchez", "Joaovitor");
-var participante5 = new participante(05, "Cesar", "TzKaizen");
+var participante5 = new participante(05, "Cesar", "Baki");
 
 var participantes = [];
 participantes.push(participante1);
