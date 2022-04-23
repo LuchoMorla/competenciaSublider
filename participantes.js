@@ -7,8 +7,8 @@ idImagenes["Cesar"] = "./WhatsApp Image 2022-04-19 at 10.02.37 PM.jpeg";
 
 var puntajeSamuel = 4200 + 6974 + 9751 + 8760;
 var puntajeJosue = 5859 + 5920 + 6621 + 4986 + 4655 + 5317;
-var puntajeEmilio = 4824 + 3591 + 3371 + 3456 + 3989 + 3109 + 4316 + 3271;
-var puntajeSanchez = 0 + 7315 + 5106 + 5779 + 4312 + 5958;
+var puntajeEmilio = 4824 + 3591 + 3371 + 3456 + 3989 + 3109 + 4316 + 3271 + 5722;
+var puntajeSanchez = 0 + 7315 + 5106 + 5779 + 4312 + 5958 + 4758;
 var puntajeCesar = 3710 + 8761 + 3663 + 1860;
 
 var puntajes = [];
