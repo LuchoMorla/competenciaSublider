@@ -6,9 +6,9 @@ idImagenes["Sanchez"] = "https://s1.zerochan.net/Donquixote.Doflamingo.600.23139
 idImagenes["Cesar"] = "./WhatsApp Image 2022-04-19 at 10.02.37 PM.jpeg";
 
 var puntajeSamuel = 4200 + 6974 + 9751 + 8760;
-var puntajeJosue = 5859 + 5920 + 6621 + 4986;
-var puntajeEmilio = 4824 + 3591 + 3371 + 3456;
-var puntajeSanchez = 0 + 7315;
+var puntajeJosue = 5859 + 5920 + 6621 + 4986 + 4655 + 5317;
+var puntajeEmilio = 4824 + 3591 + 3371 + 3456 + 3989 + 3109;
+var puntajeSanchez = 0 + 7315 + 5106 + 5779;
 var puntajeCesar = 3710 + 8761 + 3663 + 1860;
 
 var puntajes = [];
@@ -20,9 +20,9 @@ puntajes["Cesar"] = puntajeCesar;
 
 var partidasGanadas = [];
 partidasGanadas["samuel"] = 1 + 1 + 1 + 1;
-partidasGanadas["josue"] = 1 + 1 + 1 + 0;
-partidasGanadas["Emilio"] = 1 + 0 + 1 + 0;
-partidasGanadas["Sanchez"] = 0 + 1;
+partidasGanadas["josue"] = 1 + 1 + 1 + 0 + 0 + 1;
+partidasGanadas["Emilio"] = 1 + 0 + 1 + 0 + 0 + 0;
+partidasGanadas["Sanchez"] = 0 + 1 + 0 + 1;
 partidasGanadas["Cesar"] = 1 + 1 + 0 + 0;
 
 // funcion que imprima por consola el puntaje total del personaje con su nombre
