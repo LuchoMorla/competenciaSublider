@@ -5,11 +5,11 @@ idImagenes["Emilio"] = "./imagen1.jpeg";
 idImagenes["Sanchez"] = "https://s1.zerochan.net/Donquixote.Doflamingo.600.2313934.jpg";
 idImagenes["Cesar"] = "./WhatsApp Image 2022-04-19 at 10.02.37 PM.jpeg";
 
-var puntajeSamuel = 4200 + 6974 + 9751 + 8760;
+var puntajeSamuel = 4200 + 6974 + 9751 + 8760 + 3051;
 var puntajeJosue = 5859 + 5920 + 6621 + 4986 + 4655 + 5317 + 4189;
 var puntajeEmilio = 4824 + 3591 + 3371 + 3456 + 3989 + 3109 + 4316 + 3271 + 5722;
 var puntajeSanchez = 0 + 7315 + 5106 + 5779 + 4312 + 5958 + 4758 + 4606;
-var puntajeCesar = 3710 + 8761 + 3663 + 1860;
+var puntajeCesar = 3710 + 8761 + 3663 + 1860 + 1403;
 
 var puntajes = [];
 puntajes["samuel"] = puntajeSamuel;
@@ -63,7 +63,7 @@ var participante2 = new participante(02,"josue", "Empanada2");
 var participante3 = new participante(03, "Emilio", "Emilio_OP | Descalificado");
 /* No me molestaria ponerlo en un equipo ganador a emilio */
 var participante4 = new participante(04, "Sanchez", "Joaovitor");
-var participante5 = new participante(05, "Cesar", "Zoro");
+var participante5 = new participante(05, "Cesar", "Sakuna");
 
 var participantes = [];
 participantes.push(participante1);
