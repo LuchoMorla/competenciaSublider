@@ -6,9 +6,9 @@ idImagenes["Sanchez"] = "https://s1.zerochan.net/Donquixote.Doflamingo.600.23139
 idImagenes["Cesar"] = "./WhatsApp Image 2022-04-19 at 10.02.37 PM.jpeg";
 
 var puntajeSamuel = 4200 + 6974 + 9751 + 8760;
-var puntajeJosue = 5859 + 5920 + 6621 + 4986 + 4655 + 5317;
+var puntajeJosue = 5859 + 5920 + 6621 + 4986 + 4655 + 5317 + 4189;
 var puntajeEmilio = 4824 + 3591 + 3371 + 3456 + 3989 + 3109 + 4316 + 3271 + 5722;
-var puntajeSanchez = 0 + 7315 + 5106 + 5779 + 4312 + 5958 + 4758;
+var puntajeSanchez = 0 + 7315 + 5106 + 5779 + 4312 + 5958 + 4758 + 4606;
 var puntajeCesar = 3710 + 8761 + 3663 + 1860;
 
 var puntajes = [];
@@ -20,9 +20,9 @@ puntajes["Cesar"] = puntajeCesar;
 
 var partidasGanadas = [];
 partidasGanadas["samuel"] = 1 + 1 + 1 + 1;
-partidasGanadas["josue"] = 1 + 1 + 1 + 0 + 0 + 1 + 0;
+partidasGanadas["josue"] = 1 + 1 + 1 + 0 + 0 + 1 + 0 + 1;
 partidasGanadas["Emilio"] = 1 + 0 + 1 + 0 + 0 + 0 + 0 + 0 + 0;
-partidasGanadas["Sanchez"] = 0 + 1 + 0 + 1 + 1 + 1;
+partidasGanadas["Sanchez"] = 0 + 1 + 0 + 1 + 1 + 1 + 1;
 partidasGanadas["Cesar"] = 1 + 1 + 0 + 0;
 
 // funcion que imprima por consola el puntaje total del personaje con su nombre
@@ -43,6 +43,7 @@ class participante {
     }
     mostrar(){
       document.body.appendChild(this.imagen);
+      document.write('<div>');
       document.write("<br>");
       document.write("<strong>" + this.id + "</strong>");
       document.write(") Nombre: " + this.characterName + " <br>");
@@ -52,15 +53,17 @@ class participante {
       document.write("Puntaje total: " + this.puntajeTotal + "<br> ");
       document.write("</p>");
       document.write("<hr />");
+        document.write("</div>");
     }
 }
 
 
-var participante1 = new participante(01, "samuel", "AOKAMYA",);
+var participante1 = new participante(01, "samuel", "ZombieTM",);
 var participante2 = new participante(02,"josue", "Empanada2");
-var participante3 = new participante(03, "Emilio", "Emilio_OP");
+var participante3 = new participante(03, "Emilio", "Emilio_OP | Descalificado");
+/* No me molestaria ponerlo en un equipo ganador a emilio */
 var participante4 = new participante(04, "Sanchez", "Joaovitor");
-var participante5 = new participante(05, "Cesar", "Baki");
+var participante5 = new participante(05, "Cesar", "Zoro");
 
 var participantes = [];
 participantes.push(participante1);
