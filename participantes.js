@@ -5,11 +5,11 @@ idImagenes["Emilio"] = "./imagen1.jpeg";
 idImagenes["Sanchez"] = "https://s1.zerochan.net/Donquixote.Doflamingo.600.2313934.jpg";
 idImagenes["Cesar"] = "./WhatsApp Image 2022-04-19 at 10.02.37 PM.jpeg";
 
-var puntajeSamuel = 4200 + 6974 + 9751 + 8760 + 3051;
-var puntajeJosue = 5859 + 5920 + 6621 + 4986 + 4655 + 5317 + 4189;
+var puntajeSamuel = 4200 + 6974 + 9751 + 8760 + 3051 + 6257;
+var puntajeJosue = 5859 + 5920 + 6621 + 4986 + 4655 + 5317 + 4189 + 4127;
 var puntajeEmilio = 4824 + 3591 + 3371 + 3456 + 3989 + 3109 + 4316 + 3271 + 5722;
-var puntajeSanchez = 0 + 7315 + 5106 + 5779 + 4312 + 5958 + 4758 + 4606;
-var puntajeCesar = 3710 + 8761 + 3663 + 1860 + 1403;
+var puntajeSanchez = 0 + 7315 + 5106 + 5779 + 4312 + 5958 + 4758 + 4606 + 5480;
+var puntajeCesar = 3710 + 8761 + 3663 + 1860 + 1403 + 1789;
 
 var puntajes = [];
 puntajes["samuel"] = puntajeSamuel;
@@ -20,9 +20,9 @@ puntajes["Cesar"] = puntajeCesar;
 
 var partidasGanadas = [];
 partidasGanadas["samuel"] = 1 + 1 + 1 + 1;
-partidasGanadas["josue"] = 1 + 1 + 1 + 0 + 0 + 1 + 0 + 1;
+partidasGanadas["josue"] = 1 + 1 + 1 + 0 + 0 + 1 + 0 + 1 + 1;
 partidasGanadas["Emilio"] = 1 + 0 + 1 + 0 + 0 + 0 + 0 + 0 + 0;
-partidasGanadas["Sanchez"] = 0 + 1 + 0 + 1 + 1 + 1 + 1;
+partidasGanadas["Sanchez"] = 0 + 1 + 0 + 1 + 1 + 1 + 1 + 1;
 partidasGanadas["Cesar"] = 1 + 1 + 0 + 0;
 
 // funcion que imprima por consola el puntaje total del personaje con su nombre
